@@ -1,0 +1,632 @@
+2025-11-18 20:01:38 - app.middleware.logging - INFO - 📥 GET http://test/ from 127.0.0.1
+2025-11-18 20:01:38 - app.middleware.logging - INFO - ✅ GET http://test/ - 200 - 0.001s
+2025-11-18 20:01:38 - httpx - INFO - HTTP Request: GET http://test/ "HTTP/1.1 200 OK"
+2025-11-18 20:01:38 - app.middleware.logging - INFO - 📥 GET http://test/health from 127.0.0.1
+2025-11-18 20:01:38 - app.middleware.logging - INFO - ✅ GET http://test/health - 200 - 0.000s
+2025-11-18 20:01:38 - httpx - INFO - HTTP Request: GET http://test/health "HTTP/1.1 200 OK"
+2025-11-18 20:01:38 - app.middleware.logging - INFO - 📥 GET http://test/routes-simple from 127.0.0.1
+2025-11-18 20:01:38 - app.middleware.logging - INFO - ✅ GET http://test/routes-simple - 200 - 0.000s
+2025-11-18 20:01:38 - httpx - INFO - HTTP Request: GET http://test/routes-simple "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.014s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/auth/me from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/auth/me - 200 - 0.001s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/auth/me "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/invitations from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/invitations - 200 - 0.012s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/invitations "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/auth/invitations from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/auth/invitations - 200 - 0.002s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/auth/invitations "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/validate-invitation from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/validate-invitation - 200 - 0.003s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/validate-invitation "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/validate-invitation from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/validate-invitation - 200 - 0.010s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/validate-invitation "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.014s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/auth/me from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/auth/me - 200 - 0.001s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/auth/me "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/auth/register - 400 - 0.001s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 400 Bad Request"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/auth/login - 401 - 0.010s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 401 Unauthorized"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/profile/entity from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/profile/entity - 200 - 0.001s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/profile/entity "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:01:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/profile/display-settings from 127.0.0.1
+2025-11-18 20:01:39 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/admin/profile/display-settings - 404 - 0.003s
+2025-11-18 20:01:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/profile/display-settings "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:25 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions?limit=10 from 127.0.0.1
+2025-11-18 20:02:25 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/institutions?limit=10 - 200 - 0.002s
+2025-11-18 20:02:25 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions?limit=10 "HTTP/1.1 200 OK"
+2025-11-18 20:02:25 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions?state=NH from 127.0.0.1
+2025-11-18 20:02:25 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/institutions?state=NH - 200 - 0.002s
+2025-11-18 20:02:25 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions?state=NH "HTTP/1.1 200 OK"
+2025-11-18 20:02:25 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions/105091 from 127.0.0.1
+2025-11-18 20:02:25 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/institutions/105091 - 200 - 0.001s
+2025-11-18 20:02:25 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions/105091 "HTTP/1.1 200 OK"
+2025-11-18 20:02:25 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions/999999999 from 127.0.0.1
+2025-11-18 20:02:25 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/institutions/999999999 - 404 - 0.009s
+2025-11-18 20:02:25 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions/999999999 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:26 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/scholarships?limit=10 from 127.0.0.1
+2025-11-18 20:02:26 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/scholarships?limit=10 - 200 - 0.002s
+2025-11-18 20:02:26 - httpx - INFO - HTTP Request: GET http://test/api/v1/scholarships?limit=10 "HTTP/1.1 200 OK"
+2025-11-18 20:02:26 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/scholarships/2 from 127.0.0.1
+2025-11-18 20:02:26 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/scholarships/2 - 200 - 0.001s
+2025-11-18 20:02:26 - httpx - INFO - HTTP Request: GET http://test/api/v1/scholarships/2 "HTTP/1.1 200 OK"
+2025-11-18 20:02:26 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/scholarships/999999 from 127.0.0.1
+2025-11-18 20:02:26 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/scholarships/999999 - 404 - 0.010s
+2025-11-18 20:02:26 - httpx - INFO - HTTP Request: GET http://test/api/v1/scholarships/999999 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:27 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:27 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.016s
+2025-11-18 20:02:27 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:27 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:27 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:27 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:27 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/gallery from 127.0.0.1
+2025-11-18 20:02:27 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/gallery - 200 - 0.002s
+2025-11-18 20:02:27 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:27 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:27 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:27 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:27 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:27 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:27 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:27 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/gallery from 127.0.0.1
+2025-11-18 20:02:27 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/gallery - 200 - 0.156s
+2025-11-18 20:02:27 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/gallery/1 from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/gallery/1 - 404 - 0.003s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/gallery/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.015s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 DELETE http://test/api/v1/admin/gallery/999 from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - WARNING - ⚠️  DELETE http://test/api/v1/admin/gallery/999 - 404 - 0.001s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: DELETE http://test/api/v1/admin/gallery/999 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/gallery/set-featured from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/gallery/set-featured - 404 - 0.003s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/gallery/set-featured "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/gallery/featured from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/gallery/featured - 200 - 0.002s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/gallery/featured "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/images/list from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - ERROR - 💥 GET http://test/api/v1/admin/images/list - ERROR: ImageService.list_images() got an unexpected keyword argument 'prefix' - 0.001s
+2025-11-18 20:02:29 - app.core.exceptions - ERROR - Unexpected error: ImageService.list_images() got an unexpected keyword argument 'prefix'
+Traceback (most recent call last):
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/anyio/streams/memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/anyio/streams/memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/anyio/streams/memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/app/middleware/logging.py", line 26, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/base.py", line 84, in call_next
+    raise app_exc
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/venv/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryze.ai/projects/campusconnect-backend/app/api/v1/admin_images.py", line 74, in list_images
+    all_images = image_service.list_images(prefix="campusconnect")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ImageService.list_images() got an unexpected keyword argument 'prefix'
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:29 - app.middleware.logging - INFO - 📥 DELETE http://test/api/v1/admin/images/nonexistent_file.jpg from 127.0.0.1
+2025-11-18 20:02:29 - app.middleware.logging - WARNING - ⚠️  DELETE http://test/api/v1/admin/images/nonexistent_file.jpg - 403 - 0.001s
+2025-11-18 20:02:29 - httpx - INFO - HTTP Request: DELETE http://test/api/v1/admin/images/nonexistent_file.jpg "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:30 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/public/gallery/institutions/1/gallery from 127.0.0.1
+2025-11-18 20:02:30 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/public/gallery/institutions/1/gallery - 200 - 0.002s
+2025-11-18 20:02:30 - httpx - INFO - HTTP Request: GET http://test/api/v1/public/gallery/institutions/1/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:30 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/public/gallery/institutions/ipeds/356764/gallery from 127.0.0.1
+2025-11-18 20:02:30 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/public/gallery/institutions/ipeds/356764/gallery - 200 - 0.003s
+2025-11-18 20:02:30 - httpx - INFO - HTTP Request: GET http://test/api/v1/public/gallery/institutions/ipeds/356764/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:30 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/public/gallery/institutions/3/featured-image from 127.0.0.1
+2025-11-18 20:02:30 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/public/gallery/institutions/3/featured-image - 200 - 0.002s
+2025-11-18 20:02:30 - httpx - INFO - HTTP Request: GET http://test/api/v1/public/gallery/institutions/3/featured-image "HTTP/1.1 200 OK"
+2025-11-18 20:02:30 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/public/gallery/scholarships/1/gallery from 127.0.0.1
+2025-11-18 20:02:30 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/public/gallery/scholarships/1/gallery - 200 - 0.002s
+2025-11-18 20:02:30 - httpx - INFO - HTTP Request: GET http://test/api/v1/public/gallery/scholarships/1/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:30 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/public/gallery/scholarships/2/featured-image from 127.0.0.1
+2025-11-18 20:02:30 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/public/gallery/scholarships/2/featured-image - 200 - 0.001s
+2025-11-18 20:02:30 - httpx - INFO - HTTP Request: GET http://test/api/v1/public/gallery/scholarships/2/featured-image "HTTP/1.1 200 OK"
+2025-11-18 20:02:31 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:31 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.016s
+2025-11-18 20:02:31 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:31 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:31 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:31 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:31 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/images/upload from 127.0.0.1
+2025-11-18 20:02:31 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/images/upload - 200 - 0.134s
+2025-11-18 20:02:31 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/images/upload "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.013s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/images/upload from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/images/upload - 400 - 0.001s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/images/upload "HTTP/1.1 400 Bad Request"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/gallery from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/gallery - 200 - 0.003s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/gallery from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/gallery - 200 - 0.076s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/gallery "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.015s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:32 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:32 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/gallery/reorder from 127.0.0.1
+2025-11-18 20:02:32 - app.core.exceptions - WARNING - Validation error: [{'field': 'path.image_id', 'message': 'Input should be a valid integer, unable to parse string as an integer', 'type': 'int_parsing'}]
+2025-11-18 20:02:32 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/gallery/reorder - 422 - 0.001s
+2025-11-18 20:02:32 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/gallery/reorder "HTTP/1.1 422 Unprocessable Entity"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.013s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/videos from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/videos - 200 - 0.004s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/videos "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/videos from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/videos - 200 - 0.005s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/videos "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/videos/1 from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/videos/1 - 404 - 0.002s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/videos/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.011s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:33 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:33 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/videos/reorder from 127.0.0.1
+2025-11-18 20:02:33 - app.core.exceptions - WARNING - Validation error: [{'field': 'path.video_id', 'message': 'Input should be a valid integer, unable to parse string as an integer', 'type': 'int_parsing'}]
+2025-11-18 20:02:33 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/videos/reorder - 422 - 0.001s
+2025-11-18 20:02:33 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/videos/reorder "HTTP/1.1 422 Unprocessable Entity"
+2025-11-18 20:02:34 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:34 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:34 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:34 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:34 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:34 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:34 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/extended-info from 127.0.0.1
+2025-11-18 20:02:34 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/extended-info - 200 - 0.005s
+2025-11-18 20:02:34 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/extended-info "HTTP/1.1 200 OK"
+2025-11-18 20:02:34 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:34 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:34 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:34 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:34 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:34 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:34 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/extended-info from 127.0.0.1
+2025-11-18 20:02:34 - app.middleware.logging - INFO - ✅ PUT http://test/api/v1/admin/extended-info - 200 - 0.004s
+2025-11-18 20:02:34 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/extended-info "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.015s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/profile/entity from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/profile/entity - 200 - 0.001s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/profile/entity "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/profile/display-settings from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/admin/profile/display-settings - 404 - 0.002s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/profile/display-settings "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:36 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/profile/display-settings from 127.0.0.1
+2025-11-18 20:02:36 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/profile/display-settings - 404 - 0.002s
+2025-11-18 20:02:36 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/profile/display-settings "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:37 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/contact/submit from 127.0.0.1
+2025-11-18 20:02:37 - app.middleware.logging - ERROR - ❌ POST http://test/api/v1/contact/submit - 500 - 0.018s
+2025-11-18 20:02:37 - httpx - INFO - HTTP Request: POST http://test/api/v1/contact/submit "HTTP/1.1 500 Internal Server Error"
+2025-11-18 20:02:37 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/contact/submit from 127.0.0.1
+2025-11-18 20:02:37 - app.core.exceptions - WARNING - Validation error: [{'field': 'body.email', 'message': 'Field required', 'type': 'missing'}, {'field': 'body.institution_name', 'message': 'Field required', 'type': 'missing'}, {'field': 'body.inquiry_type', 'message': 'Field required', 'type': 'missing'}, {'field': 'body.message', 'message': 'Field required', 'type': 'missing'}]
+2025-11-18 20:02:37 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/contact/submit - 422 - 0.001s
+2025-11-18 20:02:37 - httpx - INFO - HTTP Request: POST http://test/api/v1/contact/submit "HTTP/1.1 422 Unprocessable Entity"
+2025-11-18 20:02:37 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:37 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.013s
+2025-11-18 20:02:37 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:37 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/contact/inquiries from 127.0.0.1
+2025-11-18 20:02:37 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/contact/inquiries - 200 - 0.013s
+2025-11-18 20:02:37 - httpx - INFO - HTTP Request: GET http://test/api/v1/contact/inquiries "HTTP/1.1 200 OK"
+2025-11-18 20:02:37 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:37 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:37 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:37 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/contact/submit from 127.0.0.1
+2025-11-18 20:02:37 - app.middleware.logging - ERROR - ❌ POST http://test/api/v1/contact/submit - 500 - 0.008s
+2025-11-18 20:02:37 - httpx - INFO - HTTP Request: POST http://test/api/v1/contact/submit "HTTP/1.1 500 Internal Server Error"
+2025-11-18 20:02:38 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/contact/submit from 127.0.0.1
+2025-11-18 20:02:38 - app.core.exceptions - WARNING - Validation error: [{'field': 'body.institution_name', 'message': 'Field required', 'type': 'missing'}, {'field': 'body.inquiry_type', 'message': 'Field required', 'type': 'missing'}]
+2025-11-18 20:02:38 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/contact/submit - 422 - 0.004s
+2025-11-18 20:02:38 - httpx - INFO - HTTP Request: POST http://test/api/v1/contact/submit "HTTP/1.1 422 Unprocessable Entity"
+2025-11-18 20:02:38 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/contact/inquiries/1 from 127.0.0.1
+2025-11-18 20:02:38 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/contact/inquiries/1 - 404 - 0.015s
+2025-11-18 20:02:38 - httpx - INFO - HTTP Request: GET http://test/api/v1/contact/inquiries/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.013s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/outreach/stats from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/admin/outreach/stats - 403 - 0.001s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/outreach/stats "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/outreach from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/admin/outreach - 403 - 0.001s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/outreach "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/outreach from 127.0.0.1
+2025-11-18 20:02:39 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/outreach - 403 - 0.001s
+2025-11-18 20:02:39 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/outreach "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:39 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/outreach/1 from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/outreach/1 - 403 - 0.001s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/outreach/1 "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/outreach/templates from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/admin/outreach/templates - 403 - 0.001s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/outreach/templates "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:40 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/outreach/templates from 127.0.0.1
+2025-11-18 20:02:40 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/outreach/templates - 403 - 0.001s
+2025-11-18 20:02:40 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/outreach/templates "HTTP/1.1 403 Forbidden"
+2025-11-18 20:02:41 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:41 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.016s
+2025-11-18 20:02:41 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:41 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:41 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:41 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:41 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/subscriptions/create-checkout from 127.0.0.1
+2025-11-18 20:02:41 - stripe - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+2025-11-18 20:02:41 - stripe - INFO - message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+2025-11-18 20:02:41 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/subscriptions/create-checkout - 200 - 0.594s
+2025-11-18 20:02:41 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/subscriptions/create-checkout "HTTP/1.1 200 OK"
+2025-11-18 20:02:41 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:41 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.018s
+2025-11-18 20:02:41 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:41 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:41 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.013s
+2025-11-18 20:02:41 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:41 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/subscriptions/pricing from 127.0.0.1
+2025-11-18 20:02:41 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/subscriptions/pricing - 200 - 0.001s
+2025-11-18 20:02:41 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/subscriptions/pricing "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.014s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/subscriptions/current from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/subscriptions/current - 200 - 0.002s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/subscriptions/current "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/subscriptions/cancel from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/subscriptions/cancel - 404 - 0.002s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/subscriptions/cancel "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:42 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/subscriptions/portal from 127.0.0.1
+2025-11-18 20:02:42 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/admin/subscriptions/portal - 404 - 0.002s
+2025-11-18 20:02:42 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/subscriptions/portal "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/data/admissions from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/data/admissions - 200 - 0.003s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/data/admissions "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/data/admissions/1 from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/data/admissions/1 - 404 - 0.002s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/data/admissions/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/data/tuition from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/data/tuition - 200 - 0.003s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/data/tuition "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/data/tuition/1 from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/data/tuition/1 - 404 - 0.002s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/data/tuition/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/data/admissions/{admission_id}/verify from 127.0.0.1
+2025-11-18 20:02:43 - app.core.exceptions - WARNING - Validation error: [{'field': 'path.admission_id', 'message': 'Input should be a valid integer, unable to parse string as an integer', 'type': 'int_parsing'}]
+2025-11-18 20:02:43 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/data/admissions/{admission_id}/verify - 422 - 0.001s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/data/admissions/%7Badmission_id%7D/verify "HTTP/1.1 422 Unprocessable Entity"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:43 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:43 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/data/tuition/{tuition_id}/verify from 127.0.0.1
+2025-11-18 20:02:43 - app.core.exceptions - WARNING - Validation error: [{'field': 'path.tuition_id', 'message': 'Input should be a valid integer, unable to parse string as an integer', 'type': 'int_parsing'}]
+2025-11-18 20:02:43 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/data/tuition/{tuition_id}/verify - 422 - 0.001s
+2025-11-18 20:02:43 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/data/tuition/%7Btuition_id%7D/verify "HTTP/1.1 422 Unprocessable Entity"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions/by-id/1 from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/institutions/by-id/1 - 200 - 0.001s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions/by-id/1 "HTTP/1.1 200 OK"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.017s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/data/admissions/1 from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/data/admissions/1 - 404 - 0.003s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/data/admissions/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:44 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/data/admissions/1/verify from 127.0.0.1
+2025-11-18 20:02:44 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/data/admissions/1/verify - 404 - 0.002s
+2025-11-18 20:02:44 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/data/admissions/1/verify "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:45 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:45 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:45 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:45 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:45 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:45 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:45 - app.middleware.logging - INFO - 📥 PUT http://test/api/v1/admin/data/tuition/1 from 127.0.0.1
+2025-11-18 20:02:45 - app.middleware.logging - WARNING - ⚠️  PUT http://test/api/v1/admin/data/tuition/1 - 404 - 0.003s
+2025-11-18 20:02:45 - httpx - INFO - HTTP Request: PUT http://test/api/v1/admin/data/tuition/1 "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:45 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:45 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.012s
+2025-11-18 20:02:45 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:45 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:45 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.010s
+2025-11-18 20:02:45 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:45 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/data/tuition/1/verify from 127.0.0.1
+2025-11-18 20:02:45 - app.middleware.logging - WARNING - ⚠️  POST http://test/api/v1/admin/data/tuition/1/verify - 404 - 0.002s
+2025-11-18 20:02:45 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/data/tuition/1/verify "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.016s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/data/admissions from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/data/admissions - 200 - 0.003s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/data/admissions "HTTP/1.1 200 OK"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions/985059/admissions from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/institutions/985059/admissions - 404 - 0.002s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions/985059/admissions "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/register from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/register - 200 - 0.013s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/register "HTTP/1.1 200 OK"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.011s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/admin/data/tuition from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - INFO - ✅ GET http://test/api/v1/admin/data/tuition - 200 - 0.003s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: GET http://test/api/v1/admin/data/tuition "HTTP/1.1 200 OK"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions/109178/tuition from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/institutions/109178/tuition - 404 - 0.002s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions/109178/tuition "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:46 - app.middleware.logging - INFO - 📥 GET http://test/api/v1/institutions/995241/financial-overview from 127.0.0.1
+2025-11-18 20:02:46 - app.middleware.logging - WARNING - ⚠️  GET http://test/api/v1/institutions/995241/financial-overview - 404 - 0.003s
+2025-11-18 20:02:46 - httpx - INFO - HTTP Request: GET http://test/api/v1/institutions/995241/financial-overview "HTTP/1.1 404 Not Found"
+2025-11-18 20:02:47 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:47 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.013s
+2025-11-18 20:02:47 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:47 - app.middleware.logging - INFO - 📥 DELETE http://test/api/v1/admin/auth/invitations/1 from 127.0.0.1
+2025-11-18 20:02:47 - app.middleware.logging - INFO - ✅ DELETE http://test/api/v1/admin/auth/invitations/1 - 200 - 0.003s
+2025-11-18 20:02:47 - httpx - INFO - HTTP Request: DELETE http://test/api/v1/admin/auth/invitations/1 "HTTP/1.1 200 OK"
+2025-11-18 20:02:47 - app.middleware.logging - INFO - 📥 POST http://test/api/v1/admin/auth/login from 127.0.0.1
+2025-11-18 20:02:47 - app.middleware.logging - INFO - ✅ POST http://test/api/v1/admin/auth/login - 200 - 0.012s
+2025-11-18 20:02:47 - httpx - INFO - HTTP Request: POST http://test/api/v1/admin/auth/login "HTTP/1.1 200 OK"
+2025-11-18 20:02:47 - app.middleware.logging - INFO - 📥 DELETE http://test/api/v1/admin/auth/invitations/99999 from 127.0.0.1
+2025-11-18 20:02:47 - app.middleware.logging - WARNING - ⚠️  DELETE http://test/api/v1/admin/auth/invitations/99999 - 404 - 0.013s
+2025-11-18 20:02:47 - httpx - INFO - HTTP Request: DELETE http://test/api/v1/admin/auth/invitations/99999 "HTTP/1.1 404 Not Found"
